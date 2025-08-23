@@ -12,6 +12,8 @@ namespace EjerciciodeAbtsraccion
         {
             Console.WriteLine("Hola Git Hub");
             Console.WriteLine("Me he cambiado a la rama de develop");
+            Console.WriteLine("juntos la rama 1");
+        
         }
     }
 }
