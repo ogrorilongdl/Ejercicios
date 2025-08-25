@@ -10,15 +10,11 @@ namespace EjerciciodeAbtsraccion
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hola Git Hub");
-            Console.WriteLine("Me he cambiado a la rama de develop");
-            Console.WriteLine("juntos la rama 1.1");
-            Console.WriteLine("juntos la rama 1.1");
-            Console.WriteLine("juntos la rama 1.1");
-            Console.WriteLine("juntos la rama 1.1");
-            Console.WriteLine("juntos la rama 1.1");
-            Console.WriteLine("juntos la rama 1.1");
-            Console.WriteLine("juntos la rama 1.1");
+            Empleado empleado = new Empleado("chris", 35, 1234m);
+
+            Console.WriteLine($"tu nombre es {empleado.Nombre} , tu edad es {empleado.Edad} y tu sueldo es de {empleado.Sueldo}");
+
+            Console.ReadKey();
         
         }
     }
