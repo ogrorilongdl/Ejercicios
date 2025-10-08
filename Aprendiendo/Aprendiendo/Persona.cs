@@ -14,11 +14,11 @@ namespace Aprendiendo
 
         public Persona()
         {
-                edad = 12;
-                nombre = "Carlos";
+            edad = 12;
+            nombre = "Carlos";
         }
 
-        public static  void Saludar()
+        public static void Saludar()
         {
 
             Console.WriteLine("Buenos dias");
@@ -26,11 +26,12 @@ namespace Aprendiendo
 
         }
 
-        public void Ejecutar () { 
-        
-        Console.WriteLine($" tu nombre es {nombre} y tu edad {edad}");
-        
-        
+        public void Ejecutar()
+        {
+
+            Console.WriteLine($" tu nombre es {nombre} y tu edad {edad}");
+
+
         }
 
 
